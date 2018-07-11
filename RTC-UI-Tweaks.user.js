@@ -10,10 +10,12 @@
 
 (function() {
     'use strict';
-    setTimeout(function() {
-        jazz.app.currentApplication.ui.get("aboveBanner").remove();
-        jazz.app.currentApplication.ui.get("title").parentNode.parentNode.style = "display: none";
-        jazz.app.currentApplication.ui._bannerTitle.appendChild(dojo.create("span",{innerHTML: "&nbsp;&nbsp;>&nbsp;&nbsp;"}));
+    var uiStartup = dojo.hitch(jazz.app.currentApplication.ui, jazz.app.currentApplication.ui.startup);
+    var ui = jazz.app.currentApplication.ui;
+    ui.startup = function() {
+        ui.get("aboveBanner").remove();
+        ui.get("title").parentNode.parentNode.style = "display: none";
+        ui._bannerTitle.appendChild(dojo.create("span",{innerHTML: "&nbsp;&nbsp;>&nbsp;&nbsp;"}));
         var links = dojo.create("span", {style:"color: lightcyan; font-size: 9pt; vertical-align: middle;"});
         links.appendChild(dojo.create("a",{
             style:"text-decoration: underline",
@@ -26,6 +28,8 @@
             href: 'https://bajazz05.canlab.ibm.com:9750/ccm/web/projects/Business%20Intelligence#action=com.ibm.team.dashboard.viewDashboard&team=Cognos%20Analytics/Common%20Components',
             innerHTML: "Toolkit Dashboard"
         }));
-        jazz.app.currentApplication.ui._bannerTitle.appendChild(links);
-    },1000);
+        ui._bannerTitle.appendChild(links);
+        ui._banner.style.marginTop = "-3px";
+        uiStartup();
+    };
 })();
