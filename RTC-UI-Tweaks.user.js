@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         RTC-UI-Tweaks
 // @namespace    RTC-UI-Tweaks
-// @version      0.1
+// @version      0.2
 // @description  My personal hacks to the RTC Web UI to improve my workflow.
 // @author       Rob Retchless
 // @match        https://bajazz05.canlab.ibm.com:9750/ccm/*
 // @grant        none
+// @downloadURL  https://github.com/retchless/my-tampermonkey-scripts/raw/master/RTC-UI-Tweaks.user.js
 // ==/UserScript==
 
 (function() {
