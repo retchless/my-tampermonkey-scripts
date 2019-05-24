@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RTC-UI-Tweaks
 // @namespace    RTC-UI-Tweaks
-// @version      0.3
+// @version      0.4
 // @description  My personal hacks to the RTC Web UI to improve my workflow.
 // @author       Rob Retchless
 // @match        https://bajazz05.canlab.ibm.com:9750/ccm/*
@@ -32,7 +32,7 @@
         ui._bannerTitle.appendChild(links);
         ui._banner.style.marginTop = "-3px";
         dojo.create("link", {href: "https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap", rel: "stylesheet" }, document.head);
-        dojo.create("style",{innerHTML: "* { font-family: 'IBM Plex Sans'}"}, document.head);
+        dojo.create("style",{innerHTML: "* { font-family: 'IBM Plex Sans'} .jazz-ui-PageTemplate { background-color: #2a2a2e } .jazz-ui-PageTemplate > .navbar-wrapper > .navbar { background-color: #2a2a2e } .jazz-ui-PageTemplate > .banner .left, .jazz-ui-PageTemplate > .banner .left > .right, .jazz-ui-PageTemplate > .banner .left > .right > .middle { background: none }"}, document.head);
         uiStartup();
     };
 })();
