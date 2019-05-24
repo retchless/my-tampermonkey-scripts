@@ -31,6 +31,8 @@
         }));
         ui._bannerTitle.appendChild(links);
         ui._banner.style.marginTop = "-3px";
+        dojo.create("link", {href: "https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap", rel: "stylesheet" }, document.head);
+        dojo.create("style",{innerHTML: "* { font-family: 'IBM Plex Sans'}"}, document.head);
         uiStartup();
     };
 })();
