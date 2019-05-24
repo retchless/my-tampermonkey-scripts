@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RTC-UI-Tweaks
 // @namespace    RTC-UI-Tweaks
-// @version      0.2
+// @version      0.3
 // @description  My personal hacks to the RTC Web UI to improve my workflow.
 // @author       Rob Retchless
 // @match        https://bajazz05.canlab.ibm.com:9750/ccm/*
