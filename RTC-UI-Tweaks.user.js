@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RTC-UI-Tweaks
 // @namespace    RTC-UI-Tweaks
-// @version      0.7
+// @version      0.8
 // @description  Hacks to the RTC Web UI to improve my workflow and stop my eyes from bleeding.
 // @author       Rob Retchless
 // @match        https://bajazz05.canlab.ibm.com:9750/ccm/*
@@ -20,7 +20,7 @@
         var links = dojo.create("span", {style:"color: lightcyan; font-size: 9pt; vertical-align: middle;"});
         links.appendChild(dojo.create("a",{
             className: "custom-header-button",
-            href: 'ibm.biz/onqportal',
+            href: 'https://ibm.biz/onqportal',
             innerHTML: "OnQ Portal"
         }));
         links.appendChild(dojo.create("a",{
