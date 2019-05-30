@@ -51,8 +51,8 @@ html body .jazz-ui-BannerSearchBox-areaInactive .SearchWrapper {
 html body .jazz-ui-BannerSearchBox-areaInactive .inactive input {
   color: #8f90a2;
 }
-.jazz-ui-PageTemplate > .banner .home-button,
-.jazz-ui-PageTemplate > .banner .home-button:hover {
+html body .jazz-ui-PageTemplate > .banner .home-button,
+html body .jazz-ui-PageTemplate > .banner .home-button:hover {
   background-image: none !important;
   width: 30px !important;
   height: 36px;
