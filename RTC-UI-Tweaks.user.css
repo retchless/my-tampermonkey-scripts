@@ -24,6 +24,11 @@
 .banner-icon {
   display: none;
 }
+.jazz-app-BannerButtons .admin-menu,
+.jazz-app-BannerButtons .user-menu,
+.jazz-app-BannerButtons .help-menu {
+  filter: grayscale(100%);
+}
 .jazz-ui-PageTemplate > .navbar-wrapper > .navbar .net-jazz-ajax-PageList a,
 .jazz-ui-PageTemplate > .navbar-wrapper > .navbar .jazz-app-CustomNavbar a {
   color: #8f90a2;
