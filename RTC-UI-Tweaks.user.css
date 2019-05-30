@@ -24,6 +24,9 @@
 .banner-icon {
   display: none;
 }
+.jazz-app-BannerButtons .pipe {
+    visibility: hidden;
+}
 .jazz-app-BannerButtons .admin-menu,
 .jazz-app-BannerButtons .user-menu,
 .jazz-app-BannerButtons .help-menu {
