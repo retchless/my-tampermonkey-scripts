@@ -1,6 +1,9 @@
 *, .jazz-ui-PageTemplate > .banner .banner-title { 
   font-family: 'IBM Plex Sans'
 }
+.jazz-app-loginLogoutArea a, .jazz-app-loginLogoutArea .gray span {
+  font-size: 9pt;
+}
 .custom-header-buttons { 
   margin-left: 12px 
 }
