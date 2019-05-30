@@ -4,7 +4,7 @@
 // @version      0.9
 // @description  Hacks to the RTC Web UI to improve my workflow and stop my eyes from bleeding.
 // @author       Rob Retchless
-// @match        https://bajazz05.canlab.ibm.com:9750/ccm/*
+// @match        https://bajazz05.canlab.ibm.com:9750/*
 // @grant        none
 // @downloadURL  https://github.com/retchless/my-tampermonkey-scripts/raw/master/RTC-UI-Tweaks.user.js
 // ==/UserScript==
