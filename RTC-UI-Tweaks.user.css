@@ -1,60 +1,64 @@
-*, .jazz-ui-PageTemplate > .banner .banner-title { 
+*, .jazz-ui-PageTemplate > .banner .banner-title {
   font-family: 'IBM Plex Sans'
 }
-.jazz-app-loginLogoutArea a, .jazz-app-loginLogoutArea .gray span {
-  font-size: 9pt;
+.jazz-app-loginLogoutArea a, .jazz-app-loginLogoutArea .gray span,
+.com-ibm-team-rtc-mystuff .mystuff-label,
+.jazz-app-loginLogoutArea a.jazz-ui-MenuPopup {
+    font-size: 9pt;
+    font-weight: normal !important;
+    color: #8f90a2;
 }
-.custom-header-buttons { 
-  margin-left: 12px 
+.custom-header-buttons {
+  margin-left: 12px;
 }
 .custom-header-button {
-  background-color: #4e4e55; 
-  padding: 3px 8px; 
-  border-radius: 4px; 
-  margin-right: 8px; 
+  background-color: #4e4e55;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-right: 8px;
 }
-.custom-header-button:hover { 
-  background-color: #64646d; 
-  text-decoration: none !important; 
+.custom-header-button:hover {
+  background-color: #64646d;
+  text-decoration: none !important;
 }
-.banner-icon { 
-  display: none 
+.banner-icon {
+  display: none;
 }
-.jazz-ui-PageTemplate > .navbar-wrapper > .navbar .net-jazz-ajax-PageList a, 
-.jazz-ui-PageTemplate > .navbar-wrapper > .navbar .jazz-app-CustomNavbar a { 
-  color: #8f90a2; 
+.jazz-ui-PageTemplate > .navbar-wrapper > .navbar .net-jazz-ajax-PageList a,
+.jazz-ui-PageTemplate > .navbar-wrapper > .navbar .jazz-app-CustomNavbar a {
+  color: #8f90a2;
 }
-.jazz-ui-PageTemplate { 
-  background-color: #2a2a2e 
-} 
+.jazz-ui-PageTemplate {
+  background-color: #2a2a2e;
+}
 .jazz-ui-PageTemplate > .banner .banner-title {
-  text-shadow: none 
+  text-shadow: none;
 }
-.jazz-ui-PageTemplate > .navbar-wrapper > .navbar { 
-  background-color: #2a2a2e 
+.jazz-ui-PageTemplate > .navbar-wrapper > .navbar {
+  background-color: #2a2a2e;
 }
-.jazz-ui-PageTemplate > .banner .left, 
-.jazz-ui-PageTemplate > .banner .left > .right, 
-.jazz-ui-PageTemplate > .banner .left > .right > .middle { 
-  height: 32px; 
-  background: none 
-} 
-html body .jazz-ui-BannerSearchBox-areaInactive .SearchWrapper { 
-  background-color: #4e4e55 !important; 
+.jazz-ui-PageTemplate > .banner .left,
+.jazz-ui-PageTemplate > .banner .left > .right,
+.jazz-ui-PageTemplate > .banner .left > .right > .middle {
+  height: 32px;
+  background: none;
+}
+html body .jazz-ui-BannerSearchBox-areaInactive .SearchWrapper {
+  background-color: #4e4e55 !important;
   border: 1px solid #4e4e55 !important;
-  box-shadow: none !important; 
+  box-shadow: none !important;
 }
-.jazz-ui-BannerSearchBox-areaInactive .inactive input { 
-  color: #bebec9;
-} 
-.jazz-ui-PageTemplate > .banner .home-button, 
-.jazz-ui-PageTemplate > .banner .home-button:hover { 
-  background-image: none !important; 
+html body .jazz-ui-BannerSearchBox-areaInactive .inactive input {
+  color: #8f90a2;
+}
+.jazz-ui-PageTemplate > .banner .home-button,
+.jazz-ui-PageTemplate > .banner .home-button:hover {
+  background-image: none !important;
   width: 30px !important;
-  height: 36px; 
-} 
-.jazz-ui-PageTemplate > .banner .home-button .home-menu, 
-.jazz-ui-PageTemplate > .banner .home-button .home-menu:hover { 
-  width: 24px; 
-  background: center center / 16px 12px url(https://www.nicepng.com/png/full/41-415236_menu-menubuttom-hamburger-menu-icon-white.png) no-repeat; 
+  height: 36px;
+}
+.jazz-ui-PageTemplate > .banner .home-button .home-menu,
+.jazz-ui-PageTemplate > .banner .home-button .home-menu:hover {
+  width: 24px;
+  background: center center / 16px 12px url(https://www.nicepng.com/png/full/41-415236_menu-menubuttom-hamburger-menu-icon-white.png) no-repeat;
 }
