@@ -14,7 +14,12 @@
 (function() {
     'use strict';
     GM_addStyle(GM_getResourceText ("customCSS"));
-    dojo.create("link", {href: "https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap", rel: "stylesheet" }, document.head);
+    var link = document.createElement('link');
+    link.setAttribute('rel', 'stylesheet');
+    link.setAttribute('type', 'text/css');
+    link.setAttribute('href', 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap');
+    document.head.appendChild(link);
+    
     if (jazz && jazz.app) {
         var ui = jazz.app.currentApplication.ui;
         var uiStartup = dojo.hitch(ui, ui.startup);
