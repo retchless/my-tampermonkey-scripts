@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RTC-UI-Tweaks
 // @namespace    RTC-UI-Tweaks
-// @version      0.15
+// @version      0.16
 // @description  Hacks to the RTC Web UI to improve my workflow and stop my eyes from bleeding.
 // @author       Rob Retchless
 // @match        https://bajazz05.canlab.ibm.com:9750/*
@@ -24,7 +24,7 @@
         var ui = jazz.app.currentApplication.ui;
         var uiStartup = dojo.hitch(ui, ui.startup);
         ui.startup = function() {
-            ui.get("aboveBanner").remove();
+            ui.get("_aboveBannerNode").remove();
             ui.get("title").parentNode.parentNode.style = "display: none";
             var links = dojo.create("span", {className: "custom-header-buttons"});
             links.appendChild(dojo.create("a",{
