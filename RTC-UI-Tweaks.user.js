@@ -5,6 +5,7 @@
 // @description  Hacks to the RTC Web UI to improve my workflow and stop my eyes from bleeding.
 // @author       Rob Retchless
 // @match        https://bajazz05.canlab.ibm.com:9750/*
+// @match        https://bajazz04.canlab.ibm.com:9725/*
 // @resource     customCSS RTC-UI-Tweaks.user.css
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
