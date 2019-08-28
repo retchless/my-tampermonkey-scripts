@@ -25,7 +25,7 @@
         var ui = jazz.app.currentApplication.ui;
         var uiStartup = dojo.hitch(ui, ui.startup);
         ui.startup = function() {
-            ui.get("_aboveBannerNode").remove();
+            ui.get("aboveBanner").remove();
             ui.get("title").parentNode.parentNode.style = "display: none";
             var links = dojo.create("span", {className: "custom-header-buttons"});
             links.appendChild(dojo.create("a",{
